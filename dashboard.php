@@ -14,7 +14,6 @@ $display_name = $_SESSION['display_name'];
 require_once 'db_connect.php';
 
 // Fetch user's vinyl collection
-// Fetch user's vinyl collection
 $user_id = $_SESSION['user_id'];
 
 // Get sorting option from GET request
